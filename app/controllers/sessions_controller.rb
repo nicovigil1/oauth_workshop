@@ -12,7 +12,7 @@ class SessionsController < ApplicationController
     private
 
     def gh_request_response
-        client_id = "88d1a08a1bda6a44edfc"
+        client_id = ENV["client_id"]
         client_secret = ENV["client_secret"]
         code = params[:code]
         response = 
