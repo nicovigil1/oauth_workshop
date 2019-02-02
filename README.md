@@ -15,7 +15,7 @@ This is just a simple proof of concept in dealing with oauth for github to signi
 
 ### Installing
 
-1. run rails server in your terminal
+1. run ```rails server``` in your terminal
 2. visit localhost:3000 (or whatever port rails server prescribes)
 3. click login & login using your github credentials
 4. you should be redirected to ```localhost:3000/dashboard``` and see your github username
