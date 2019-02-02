@@ -4,7 +4,7 @@ This is just a simple proof of concept in dealing with oauth for github to signi
 
 ## Getting Started
 
-1. After cloning, bundle & install figaro with ```figaro install`'`
+1. After cloning, bundle & install figaro with ```figaro install```
 2. Setup a github oauth app on github ```settings>developer settings>New Oauth App```
 3. Paste your client secret and id into the application.yml under ```client_secret: (secret_key)``` & ```client_id: (client_key)```
 
