@@ -1,7 +1,7 @@
 class SessionsController < ApplicationController
     def create
         client_id = "88d1a08a1bda6a44edfc"
-        client_secret = "d4c70f60f24a3c2581c756ca10e33c4e20675b86"
+        client_secret = ENV["client_secret"]
         code = params[:code]
         response = 
         Faraday.post("https://github.com/login/oauth/access_token?client_id=#{client_id}&client_secret=#{client_secret}&code=#{code}")
