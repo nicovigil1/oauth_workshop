@@ -10,8 +10,8 @@ This is just a simple proof of concept in dealing with oauth for github to signi
 
 ### Prerequisites
 
-Rails 5.2.2
-Ruby 2.4.1
+- Rails 5.2.2
+- Ruby 2.4.1
 
 ### Installing
 
@@ -27,9 +27,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-Rails 5.2.2
-Ruby 2.4.1
-GitHub Oauth
+* Rails 5.2.2
+* Ruby 2.4.1
+* GitHub Oauth
 
 
 ## Acknowledgments
